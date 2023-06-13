@@ -9,7 +9,7 @@ body {
 
 @font-face {
     font-family: Ubuntu;
-    src: url(/Ubuntu/Ubuntu-Regular.ttf);
+    src: url(/src/util/Ubuntu/Ubuntu-Regular.ttf);
   }
 
 .loginbox {
