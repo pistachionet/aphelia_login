@@ -1,0 +1,138 @@
+body {
+    margin: 0;
+    padding: 0; 
+    background-size: cover;
+    background-position: center;
+    background-color: #24094f;
+    font-family: Ubuntu;
+}
+
+@font-face {
+    font-family: Ubuntu;
+    src: url(/Ubuntu/Ubuntu-Regular.ttf);
+  }
+
+.loginbox {
+    width: 320px;
+    height: 510px;
+    background: white;
+    color: rgb(0, 0, 0);
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+    border-radius: 25px;
+}
+
+.avatar {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: relative;
+    top: -70px;
+    left: calc(50% - 50px);
+}
+
+h1 {
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 22px;
+}
+
+.loginbox p {
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+}
+
+.loginbox input {
+    width: 100%;
+    margin-bottom: 20px;
+
+}
+
+.loginbox input[type="text"], input[type="password"]
+{
+    border: none;
+    border-bottom: 1px solid black;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: black;
+    font-size: 16px;
+}
+
+.loginbox input[type="submit"]
+{
+    border: none;
+    outline: none;
+    height: 40px;
+    background: #0dd89b;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 20px;
+
+}
+
+.loginbox input[type="submit"]:hover {
+    cursor: pointer;
+    background: #04f3df;
+    color: #000;
+    transition: 0.5s;
+}
+
+.loginbox a {
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 20px;
+    color: darkgrey;
+
+}
+
+.company-name {
+    position: relative;
+    top: -70px;
+}
+
+.form {
+    position: relative;
+    top: -60px;
+}
+
+.loginbox a:hover {
+    color: #ffc107;
+    
+}
+
+.checkbox {
+    position: relative;
+    margin: 30px 10px 10px 2;
+    left: -130px;
+}
+
+span {
+    color: #777;
+    font-size: 12px;
+    bottom: 37px;
+    right: -20px;
+    position: relative;
+}
+
+.corp {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    bottom: -650px;
+    position: relative;
+}
+
+.license {
+    font-size: 12px;
+}
+
+.forget {
+    position: relative;
+    left: -82px;
+}
