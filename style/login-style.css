@@ -4,14 +4,11 @@ body {
     background-size: cover;
     background-position: center;
     background-color: #24094f;
-    font-family: Ubuntu;
+    font-family: Arial, Helvetica, sans-serif;
+
 }
 
-@font-face {
-    font-family: Ubuntu;
-    src: url(/src/util/Ubuntu/Ubuntu-Bold.ttf);
-  }
-
+  /* The surrounbding box  */
 .loginbox {
     width: 320px;
     height: 510px;
@@ -64,8 +61,8 @@ h1 {
 .loginbox input {
     width: 100%;
     margin-bottom: 20px;
-
 }
+
 
 .loginbox input[type="text"], input[type="password"]
 {
@@ -105,47 +102,14 @@ h1 {
 
 }
 
-.company-name {
-    position: relative;
-    top: -70px;
-}
 
-.form {
-    position: relative;
-    top: -60px;
-}
 
 .loginbox a:hover {
-    color: #ffc107;
+    color: #30d166;
     
 }
 
-.checkbox {
-    position: relative;
-    margin: 30px 10px 10px 2;
-    left: -130px;
-}
-
-span {
-    color: #777;
-    font-size: 12px;
-    bottom: 37px;
-    right: -20px;
-    position: relative;
-}
-
-.corp {
-    color: white;
-    font-family: Arial, Helvetica, sans-serif;
-    bottom: -650px;
-    position: relative;
-}
 
 .license {
     font-size: 12px;
-}
-
-.forget {
-    position: relative;
-    left: -82px;
 }
