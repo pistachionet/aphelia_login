@@ -25,9 +25,35 @@ and a remember me feature-->
                     <div class="d-flex flex-row align-items-center justify-content-center justify-content-lg-start">
                       <p class="lead fw-normal mb-0 me-3">Sign in with</p>
                       
-                      <button type="button" class="btn btn-floating mx-1">
+                      <button type="text/javascript" src="https://appleid.cdn-apple.com/appleauth/static/jsapi/appleid/1/en_US/appleid.auth.js"class="btn btn-floating mx-1">
                         <i class=" fab fa-apple fa-2x"></i>
+                        
+                            <script type="text/javascript" >
+
+                                AppleID.auth.init({
+                                    clientId : '[CLIENT_ID]',
+                                    scope : '[SCOPES]',
+                                    redirectURI : '[REDIRECT_URI]',
+                                    state : '[STATE]',
+                                    nonce : '[NONCE]',
+                                    usePopup : true
+                                });
+                            </script>
                       </button>
+                      <body>
+                        <script type="text/javascript" src="https://appleid.cdn-apple.com/appleauth/static/jsapi/appleid/1/en_US/appleid.auth.js"></script>
+                        <div id="appleid-signin" data-color="black" data-border="true" data-type="sign in"></div>
+                        <script type="text/javascript">
+                            AppleID.auth.init({
+                                clientId : '[CLIENT_ID]',
+                                scope : '[SCOPES]',
+                                redirectURI : '[REDIRECT_URI]',
+                                state : '[STATE]',
+                                nonce : '[NONCE]',
+                                usePopup : true
+                            });
+                        </script>
+                    </body>
 
 
           
@@ -45,19 +71,6 @@ and a remember me feature-->
           
                       
                     </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -89,7 +102,7 @@ and a remember me feature-->
                           Remember me
                         </label>
                       </div>
-                      <a href="#!" class="text-body">Forgot password?</a>
+                      <a href="/src/scripts/html/forgot-emai.html" class="text-body">Forgot password?</a>
                     </div>
           
                     <div class="text-center text-lg-start mt-4 pt-2">
@@ -103,23 +116,6 @@ and a remember me feature-->
                 </div>
               </div>
             </div>
-                      
-              <!-- Right -->
-              <div>
-                <a href="#!" class="text-white me-4">
-                  <i class="fab fa-facebook-f"></i>
-                </a>
-                <a href="#!" class="text-white me-4">
-                  <i class="fab fa-twitter"></i>
-                </a>
-                <a href="#!" class="text-white me-4">
-                  <i class="fab fa-google"></i>
-                </a>
-                <a href="#!" class="text-white">
-                  <i class="fab fa-linkedin-in"></i>
-                </a>
-              </div>
-              <!-- Right -->
             </div>
           </section>
         
